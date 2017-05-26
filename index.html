@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VintValley</title>
+	<meta charset = "UFT-8" >
+	<meta name = "viewport" content= "width=device-width, initial-scale=1">
+	<meta http-equiv= "X-UA-Compatible" content="IE=edge">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+  	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Knewave' rel='stylesheet'>
+	<script type="text/javascript">
+  		$(document).ready(function() {
+    		$('.carousel').carousel({
+      		interval: 2000})});
+	</script>
+
+
+</head>
+
+<body>
+<!-- Nabar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+  		<div class="container-fluid" style = "width: 100%">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="#">VintValley</a>
+      			<button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavbar">
+      				<span class = "icon-bar"></span>
+      				<span class = "icon-bar"></span>
+      				<span class = "icon-bar"></span>
+      			</button>
+    		</div>
+    		<div class = "collapse navbar-collapse" id = "myNavbar">
+    			<ul class="nav navbar-nav navbar-right">
+      			<li><a href="#">Home</a></li>
+			    	<li><a href="#about">Services</a></li>
+			    	<li><a href="#team">Team</a></li>
+			    	<li><a href="#pricing">Pricing</a></li>
+			    	<li><a href="#map">Location</a></li>
+			</ul>
+    		</div>
+    		
+		</div>
+	</nav>
+
+	<div class="container-fill">
+		<div class = "row">
+			<div class = "col col-lg-12 col-md-12 col-sm-12 col-xs-12" style = "width:100% height:100%">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel" >
+		    			<ol class="carousel-indicators">
+		      			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		      			<li data-target="#myCarousel" data-slide-to="1"></li>
+		      			<li data-target="#myCarousel" data-slide-to="2"></li>
+		    			</ol>
+		    			<div class="carousel-inner" style = "width: 100%; height: 100%;">
+		      			<div class="item active">
+		        				<img src="images/NatGeo04.jpg" alt="Forest" style="width:100%;">
+		        				<div id = "carousel1" class="carousel-caption hidden-sm">
+		          				<h3 id = "firstItem">Think. Explore. Know.</h3>
+		        				</div>
+		      			</div>
+		      			<div class="item">
+		        				<img src="images/NatGeo03.jpg" alt="Forest" style="width:100%; ">
+		        				<div id = "carousel1" class="carousel-caption hidden-sm hidden-xs" style = "color: white;">
+		          				<h3 id = "secondItem">The world at your fingertips.</h3>
+		        				</div>
+		      			</div>
+		      			<div class="item">
+		        				<img src="images/NatGeo17.jpg" alt="Forest" style="width:100%;">
+		        				<div id = "carousel1" class="carousel-caption hidden-sm hidden-xs">
+		          				<h3 id = "thirdItem">A Photographic Story.</h3>
+		        				</div>
+		      			</div>
+		    			</div>
+
+		    			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		      			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		      			<span class="sr-only">Previous</span>
+		    			</a>
+		    			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+		      			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		      			<span class="sr-only">Next</span>
+		    			</a>
+  				</div>
+
+  				<div class = "main-text hidden-md hidden-sm hidden-xs">
+  					<div class = "col col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+  						<span class="scroll-btn" ><a href="#"><span class="mouse">
+  						<span></span>
+  						</span>
+  						</a>
+  					</div>
+  				</div>
+			</div>
+		</div>
+  	</div>
+  	<div class = "container-fill" >
+  		<div class = "jumbotron">
+  			<div class = row id = "about">
+  				<div class = "col col-lg-12 col-md-12 col-sm-12 col-xs-12" style = "padding-bottom: 50px;">
+  					<h3>
+  						<span class="glyphicon glyphicon-camera" aria-hidden="true"  style = "font-size: 40px;"></span>
+  						<span class="glyphicon glyphicon-picture" aria-hidden="true"  style = "font-size: 40px;"></span>
+  					</h3>
+  					
+  				</div>
+  				<div class = "col col-lg-6 col-md-8 col-sm-12 col-xs-12" style = " text-align: center;">
+  					<h3><a href="#aboutContent1" data-toggle = "collapse">Accessing your Photos<span class = "caret"></span></a></h3>
+  					<div style = "width:78%; padding-left: 157px; " id = "aboutContent1" class = "collapse">
+  					<p>People want to keep a blog of moments captured on their cameraphone, or maybe they want to show off their best pictures or video to the whole world in a bid for web celebrity. Or maybe they want to securely and privately share photos of their kids with their family across the country. Our product makes all these things possible and more!</p>
+  					</div>
+  				</div>
+  				<div class = "col col-lg-6 col-md-8 col-sm-12 col-xs-12" style = "text-align: center;">
+  					<h3><a href="#aboutContent2" data-toggle = "collapse">Managing your Album<span class = "caret"></span></a>
+  						
+  					</h3>
+  					<div style = "width:78%; padding-left: 157px;" id = "aboutContent2" class = "collapse" >
+  					<p>Part of the solution is to make the process of organizing photos or videos collaborative. In Flickr, you can give your friends, family, and other contacts permission to organize your stuff - not just to add comments, but also notes and tags. People like to ooh and ahh, laugh and cry, make wisecracks when sharing photos and videos. Why not give them the ability to do this when they look at them over the internet?</p>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div class="container-float" id = "team" style = "height: 230px;">
+  		<div class = "row" id = "values">
+			<div class = "col col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h3><span class="glyphicon glyphicon-user" aria-hidden="true"  style = "font-size: 20px;"> </span>
+					<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+					<span class="glyphicon glyphicon-user" aria-hidden="true" style = "font-size: 40px;"> </span>
+					<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+					<span class="glyphicon glyphicon-user" aria-hidden="true"  style = "font-size: 20px;"></span>
+
+				</h3>
+			</div>
+		</div>		
+			
+			
+			<div class = "col col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+				<div id="myCarousel2" class="carousel slide" data-ride="carousel" style = "height: 500px;">
+		    			<ol class="carousel-indicators" id = "indicators" style=" height: 0%;">
+		      			<li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+		      			<li data-target="#myCarousel2" data-slide-to="1"></li>
+		      			<li data-target="#myCarousel2" data-slide-to="2"></li>
+		      			<li data-target="#myCarousel2" data-slide-to="3"></li>
+		      			<li data-target="#myCarousel2" data-slide-to="4"></li>
+		    			</ol>
+		    			<div class="carousel-inner" style = "width: 100%; height: 100%;">
+		      			<div class="item active hidden-sm hidden-xs">
+		        				<h3 id = "name"><img src="images/employees/employee1.png", style = "height: 150px; width: 150px;">
+		        				<span style = "font-size: 35px;">Samin Yasar</span><span style = "padding-left: 30px;">CEO & Founder</span><div id = "quotes"><p>"The biggest job we have is to teach a newly hired employee how to fail intelligently. We have to train him to experiment over and over and to keep on trying and failing until he learns what will work."</p></div></h3>
+
+		      			</div>
+		      			<div class="item hidden-sm hidden-xs" >
+		      				<h3 id = "name"><img src="images/employees/employee2.png", style = "height: 150px; width: 150px;">
+		      				<span style = "font-size: 35px;">Lyn Jacquelyn</span><span style = "padding-left: 20px;">Co-founder</span><div id = "quotes"><p>"Employee loyalty begins with employer loyalty. Your employees should know that if they do the job they were hired to do with a reasonable amount of competence and efficiency, you will support them."</p></div></h3>
+		      			</div>
+		      			<div class="item hidden-sm hidden-xs">
+		        				<h3 id = "name"><img src="images/employees/employee3.png", style = "height: 150px; width: 150px;">
+		        				<span style = "font-size: 35px;">Miles Edwyn</span><span style = "padding-left: 25px;">Creative Director</span><div id = "quotes"><p>"The employee is regarded by the employer merely in the light of his value as an operative. His productive capacity alone is taken into account."</p></div></h3>
+		        			</div>
+		        			<div class="item hidden-sm hidden-xs">
+		        				<h3 id = "name"><img src="images/employees/employee4.png", style = "height: 150px; width: 150px;">
+		        				<span style = "font-size: 35px;">Ricky Ward</span><span style = "padding-left: 30px;">Creative Director</span><div id = "quotes"><p>"Life is not a solo act. It's a huge collaboration, and we all need to assemble around us the people who care about us and support us in times of strife."
+							</p></div></h3>
+		        			</div>
+		        			<div class="item hidden-sm hidden-xs">
+		        				<h3 id = "name"><img src="images/employees/employee5.png", style = "height: 150px; width: 150px;">
+		        				<span style = "font-size: 35px;">Steph Romy</span><span style = "padding-left: 50px;">Designer</span><div id = "quotes"><p>"Connect the dots between individual roles and the goals of the organization. When people see that connection, they get a lot of energy out of work. They feel the importance, dignity, and meaning in their job."</p></div></h3>
+		        			</div>
+		        		</div>
+		        	</div>
+		     </div>
+	</div>	
+
+
+
+
+  	<div class = "container-fill">
+  		<div class = "jumbotron" id = "pricingJumbotron" style="margin-top: 500px;">
+  			<div class = "row" >
+  			<div class = "col col-lg-12 col-md-12 col-sm-12 col-xs-12" id = "pricing" style = "padding-bottom: 15px;">
+  				<h3>
+  					<span class="glyphicon glyphicon-apple" aria-hidden="true" style = "font-size: 40px;"></span>
+  				</h3>
+  			</div>
+  			<div class = "col-md-8 col-md-offset-2" >
+  				<table class = "table table-bordered table-striped">
+  				<tr>
+  					<th></th>
+  					<th class = "col-md-2"><span id = "logo">VintValley</span></th>
+  					<th class = "col-md-2"><span id = "logo">VintValley</span><span id = "pro"> Pro</span></th>
+  					<th class = "col-md-2"><span id = "logo">VintValley</span><span id = "pro"> Pro+</span></th>
+  				</tr>
+  				<tr>
+  					<td id = "r">1000GB of storage</td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  				</tr>
+  				<tr>
+  					<td id = "r">Powerful photo editing tools</td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  				</tr>
+  				<tr>
+  					<td id = "r">Smart photo management</td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  				</tr>
+  				<tr>
+  					<td id = "r">Ad free browsing and sharing</td>
+  					<td></td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  				</tr>
+  				<tr>
+  					<td id = "r">Desktop Auto-Uploader</td>
+  					<td></td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  				</tr>
+  				<tr>
+  					<td id = "r">Adobe Photoshop CC and Lightroom CC</td>
+  					<td></td>
+  					<td></td>
+  					<td class = "text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+  				</tr>
+  				<tr>
+  					<td></td>
+  					<td><button class = "btn btn-primary" id = "free">Free</button></td>
+  					<td><button class = "btn btn-primary" id = "monthly">Monthly Plan $4.99</button></td>
+  					<td><button class = "btn btn-primary" id = "annual">Annual Plan $49.99</button></td>
+  				</tr>
+
+  			</table>
+  			</div>
+  		</div>
+  		</div>
+
+  		<div id="myModal" class="modal">
+  			<div class="modal-content">
+    				<span class="close">&times;</span>
+    				<p>Thankyou for subscribing!</p>
+  			</div>
+		</div>
+  		
+  	</div>
+
+  	<script type="text/javascript">
+
+		var modal = document.getElementById('myModal');
+
+		var btn = document.getElementById("free");
+		var btn1 = document.getElementById("monthly");
+		var btn2 = document.getElementById("annual");
+
+
+		var span = document.getElementsByClassName("close")[0];
+
+		btn.onclick = function() {
+			modal.style.display = "block";
+		}
+		btn1.onclick = function() {
+			modal.style.display = "block";
+		}
+		btn2.onclick = function() {
+			modal.style.display = "block";
+		}
+
+		span.onclick = function() {
+		    modal.style.display = "none";
+		}
+
+		window.onclick = function(event) {
+		    if (event.target == modal) {
+		        modal.style.display = "none";
+		    }
+		}
+	</script>
+	<div class = "container">
+		<div class = "row">
+			<div class = "col col-lg-12 col-md-12 col-sm-12 col-xs-12" id = "location">
+				<h3>
+					<span class="glyphicon glyphicon-globe" aria-hidden="true" style = "font-size: 40px;"></span>
+  					<span class="glyphicon glyphicon-flag" aria-hidden="true" style = "font-size: 40px;"></span>
+  				</h3>
+			</div>
+			<div id = "map"></div>
+		</div>
+		
+	</div>
+	<script>
+		function myMap() {
+  		var mapCanvas = document.getElementById("map");
+  		var mapOptions = {
+    			center: new google.maps.LatLng(45.428004, -75.693022), zoom: 18};
+  		var map = new google.maps.Map(mapCanvas, mapOptions);
+  		}
+	</script>
+  	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMvBvIvjzRHRFQOwe_r_szrPMhY1WbTNs&callback=myMap"></script>
+	<div class = "container-fill">
+
+	<div class="container-fluid text-center" id = "footer">
+    <hr style = "border-color:black;">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#">Product for Mac</a></li>
+          <li><a href="#">Product for Windows</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#">Presentation</a></li>
+          <li><a href="#">Forum</a></li>          
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#">Product Help</a></li>
+          <li><a href="#">Developer API</a></li>
+        </ul>
+      </div>  
+    </div>
+  </div>
+  <hr style = "border-color:black;>
+    <div class="row">
+        <div class="col-lg-12">
+            <ul class="nav nav-pills nav-justified">
+                <li><a href="#">2017 VinValley.</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+  	  		
+  
+	
+	
+</body>
+</html>
