@@ -1,6 +1,9 @@
-body {
-padding: 0;
-margin: 0;
+html, body {
+padding: 0px;
+margin: 0px;
+height:100%;
+width:100%;
+overflow-x: hidden;
 }
 
 
@@ -30,19 +33,28 @@ border-color: transparent;
 }
 #carousel1{
 	color: white;
-	font-family: 'Assistant';
+	font-family: 'Meera Inimai';
 }
 
 
 #firstItem{
 padding-bottom: 450px;
+font-size: 50px;
+text-decoration: underline;
 }
 
+
 #secondItem{
- padding-bottom: 400px;
+ padding-bottom: 450px;
+ font-size: 50px;
+text-decoration: underline;
+
 }
 #thirdItem{
-padding-bottom: 600px;
+padding-bottom: 580px;
+font-size: 50px;
+text-decoration: underline;
+
 }
 #indicators li {
   background-color: #999;
