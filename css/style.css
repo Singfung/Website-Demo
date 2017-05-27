@@ -40,20 +40,17 @@ border-color: transparent;
 #firstItem{
 padding-bottom: 450px;
 font-size: 50px;
-text-decoration: underline;
 }
 
 
 #secondItem{
  padding-bottom: 450px;
  font-size: 50px;
-text-decoration: underline;
 
 }
 #thirdItem{
 padding-bottom: 580px;
 font-size: 50px;
-text-decoration: underline;
 
 }
 #indicators li {
@@ -352,7 +349,7 @@ color: #505050;
 	transition-duration: 0.4s;
 }
 .nav-stacked > li > a:hover{
-	font-size: 20px;
+	font-size: 18px;
 }
 .nav-justified > li > a{
 	color: black;
@@ -361,7 +358,7 @@ color: #505050;
 	transition-duration: 0.4s;
 }
 .nav-justified > li > a:hover{
-	font-size: 20px;
+	font-size: 18px;
 }
 
 
